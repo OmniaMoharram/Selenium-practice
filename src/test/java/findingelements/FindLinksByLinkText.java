@@ -26,6 +26,7 @@ public class FindLinksByLinkText {
 		System.out.println(seleniumLink.getAttribute("href"));
 	}
 	@Test
+	//find element by link
 	public void testLinkText () {
 		WebElement seleniumLink = driver.findElement(By.linkText("Elemental Selenium"));
 		System.out.println(seleniumLink.getAttribute("href"));
